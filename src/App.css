@@ -589,43 +589,6 @@ body {
 }
 
 /* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .app {
-    background-color: #1a1a1a;
-    color: #ffffff;
-  }
-  
-  .calendar {
-    background: #2d2d2d;
-  }
-  
-  .calendar-day {
-    border-color: #444;
-    background-color: #2d2d2d;
-  }
-  
-  .calendar-day:hover {
-    background-color: #3a3a3a;
-  }
-  
-  .weekday-header {
-    background-color: #3a3a3a;
-    color: #ffffff;
-  }
-  
-  .event-form {
-    background: #2d2d2d;
-    color: #ffffff;
-  }
-  
-  .form-group input,
-  .form-group select,
-  .form-group textarea {
-    background: #3a3a3a;
-    color: #ffffff;
-    border-color: #555;
-  }
-}
 
 /* Reduced motion for accessibility */
 @media (prefers-reduced-motion: reduce) {
@@ -839,43 +802,6 @@ body {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .app {
-    background-color: #1a1a1a;
-    color: #ffffff;
-  }
-  
-  .calendar {
-    background: #2d2d2d;
-  }
-  
-  .calendar-day {
-    border-color: #444;
-    background-color: #2d2d2d;
-  }
-  
-  .calendar-day:hover {
-    background-color: #3a3a3a;
-  }
-  
-  .weekday-header {
-    background-color: #3a3a3a;
-    color: #ffffff;
-  }
-  
-  .event-form {
-    background: #2d2d2d;
-    color: #ffffff;
-  }
-  
-  .form-group input,
-  .form-group select,
-  .form-group textarea {
-    background: #3a3a3a;
-    color: #ffffff;
-    border-color: #555;
-  }
-}
 
 @media (prefers-reduced-motion: reduce) {
   * {
