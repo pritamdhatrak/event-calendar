@@ -3,15 +3,15 @@ cat > README.md << 'EOF'
 
 A React-based event calendar I built to learn more about complex state management and drag-and-drop functionality. Started this as a personal project but it turned out pretty decent!
 
-![Calendar Demo](https://via.placeholder.com/800x400/2c3e50/white?text=Event+Calendar+Demo)
+
 
 ## Live Demo
-🔗 **Live App**: [Your Vercel URL here]  
-📁 **GitHub**: https://github.com/pritamdhatrak/event-calendar
+ **Live App**: https://event-calendar-amber.vercel.app/
+ **GitHub**: https://github.com/pritamdhatrak/event-calendar
 
 ## What it does
 
-- Monthly calendar view (took me forever to get the date calculations right 😅)
+- Monthly calendar view (took me forever to get the date calculations right )
 - Add/edit/delete events with a clean modal form
 - Drag and drop events between days (this was surprisingly tricky)
 - Recurring events - daily, weekly, monthly, or custom intervals
@@ -50,14 +50,14 @@ Navigate between months with arrow buttons
 Days from previous/next month are greyed out
 
 
-✨ Event Management
+ Event Management
 Click any day to create an event
 Click existing events to edit them
 Color-code your events (6 colors available)
 Add categories and descriptions
 
 
-🔄 Recurring Events
+ Recurring Events
 This was the hardest part! Supports:
 
 Daily repeats
@@ -83,6 +83,8 @@ Clear search with the X button
 Prevents you from booking two things at the same time
 Shows a confirmation dialog for conflicts
 Works for both new events and drag-drop moves
+
+
 Challenges I faced
 Date calculations - Getting the calendar grid right with proper month boundaries was harder than expected
 Recurring events logic - Generating the right dates for different recurrence patterns took several iterations
